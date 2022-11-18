@@ -10,7 +10,30 @@
     font-family: 'PT Sans', sans-serif;
 }
  /* utilities */
+ 
+/* btn */
 
+.upgrade-btn{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+ /* header */
+ header{
+
+    text-align: right;
+     height: 80px;
+     background-color: #000000;
+     opacity: 0.3;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+ }
 /* main */
 
 main{
@@ -24,16 +47,7 @@ main{
     
 }
 
-header{
-    height: 80px;
-    background-color: #000000;
-    opacity: 0.3;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
+/* side-nav */
 .side-nav{
     height: 100%;
     width: 300px;
@@ -41,6 +55,7 @@ header{
     
 
 }
+/* content */
 
 .content{
     margin-left: 55px;
@@ -60,4 +75,12 @@ footer{
     color: #fff;
 
     
+}
+
+@media screen and (max-width: 556px) {
+    /* side-nav */
+
+    .side-nav{
+        width: 70px;
+    }
 }
