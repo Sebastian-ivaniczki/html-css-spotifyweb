@@ -11,6 +11,13 @@
 }
  /* utilities */
  
+ img{
+    width: 100%;
+ }
+
+ .border{
+    border: 1px dashed red;
+ }
 /* btn */
 
 .upgrade-btn{
@@ -38,13 +45,29 @@
 
 main{
     height: calc(100vh - 100px);
+    
     background-color: #141922;
     display: flex;
     color: #fff;
     
     overflow-y: auto;
+}
 
-    
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.col{
+    width: calc(100% / 5 - 10px);
+    min-height: 30px;
+
+}
+
+.card{
+    min-height: 100px;
 }
 
 /* side-nav */
@@ -53,19 +76,22 @@ main{
     width: 300px;
     background-color: #000000;
     
+    position: sticky;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
 
 }
 /* content */
 
 .content{
-    margin-left: 55px;
-    width: calc(100% - 304px);
-    
-    margin-top: 80px;
-    overflow-y: auto;
+    width: 75%;
 }
 
-
+.content-nav{
+    text-align: center;
+    margin-top: 90px;
+}
 
 
 /* footer */
