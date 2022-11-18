@@ -32,6 +32,8 @@
  .border{
     border: 1px dashed red;
  }
+
+
 /* btn */
 
 .upgrade-btn{
@@ -42,7 +44,35 @@
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
+    margin-right: 40px;
 }
+
+
+/* generics */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.album-description{
+    margin-top:2rem ;
+    margin-bottom: 1rem;
+}
+
+.col{
+    width: calc(100% / 6 - 10px);
+    margin-right: 10px;
+}
+
+
+.song-title{
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+
  /* header */
  header{
 
@@ -66,29 +96,6 @@ main{
     
 }
 
-/* generics */
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.album-description{
-    margin-top:2rem ;
-    margin-bottom: 1rem;
-}
-
-.cover{
-    width: 150px;
-    height: 150px;
-    
-    margin-right: 10px;
-}
-
-.song-title{
-    text-align: center;
-    margin: 0.5rem 0;
-}
 
 
 /* side-nav */
@@ -115,6 +122,27 @@ footer{
 }
 
 
+/***********medium  ***************/
+
+@media screen and (max-width: 860px) {
+
+    .col{
+        width: calc(100% / 4 - 10px);
+        
+    }
+}
+
+/************small  **************/
+
+@media screen and (max-width: 639px) {
+
+    .col{
+        width: calc(100% / 2 - 10px);
+        
+    }
+}
+
+/********* extrasmall *************/
 @media screen and (max-width: 556px) {
     /* side-nav */
 
