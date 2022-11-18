@@ -10,7 +10,23 @@
     font-family: 'PT Sans', sans-serif;
 }
  /* utilities */
+
+ img{
+    width: 100%;
+ }
+
+ .main-container{
+     width: 100%;
+     height: calc(100vh - 90px);
+     background-color: #141922;
+     overflow: auto;
+     color: #fff;
+ }
  
+ .container{
+    margin: 10px;
+    padding-top: 100px;
+ }
 
 
  .border{
@@ -45,15 +61,34 @@ main{
     display: flex;
 }
 
-
-.main-container{
-    width: 100%;
-    height: calc(100vh - 90px);
-    background-color: #141922;
-    overflow: auto;
-    color: #fff;
+.playlist-nav{
+    text-align: center;
+    
 }
 
+/* generics */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.album-description{
+    margin-top:2rem ;
+    margin-bottom: 1rem;
+}
+
+.cover{
+    width: 150px;
+    height: 150px;
+    
+    margin-right: 10px;
+}
+
+.song-title{
+    text-align: center;
+    margin: 0.5rem 0;
+}
 
 
 /* side-nav */
