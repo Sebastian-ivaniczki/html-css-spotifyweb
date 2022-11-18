@@ -1,0 +1,63 @@
+
+
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* font */
+    font-family: 'PT Sans', sans-serif;
+}
+ /* utilities */
+
+/* main */
+
+main{
+    height: calc(100vh - 100px);
+    background-color: #141922;
+    display: flex;
+    color: #fff;
+    
+    overflow-y: auto;
+
+    
+}
+
+header{
+    height: 80px;
+    background-color: #000000;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.side-nav{
+    height: 100%;
+    width: 300px;
+    background-color: #000000;
+    
+
+}
+
+.content{
+    margin-left: 55px;
+    width: calc(100% - 304px);
+    
+    margin-top: 80px;
+    overflow-y: auto;
+}
+
+
+
+
+/* footer */
+footer{
+    height: 100px;
+    background-color: #282828;
+    color: #fff;
+
+    
+}
