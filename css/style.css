@@ -80,7 +80,7 @@
      height: 80px;
      background-color: #000000;
      opacity: 0.3;
-     position: fixed;
+     position: sticky;
      top: 0;
      left: 0;
      right: 0;
@@ -91,23 +91,84 @@ main{
     display: flex;
 }
 
-.playlist-nav{
-    text-align: center;
-    
-}
 
 
 
 /* side-nav */
 .side-nav{
-   
+    
     padding: 0 10px;
     width: 300px;
     height: calc(100vh - 90px);
     background-color: #000000;
-    color: #fff;
+    color: #707070;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
+
+.serch-menu{
+    
+
+    margin: 13px 0;
+    width: 25px;
+    display: flex;
+    align-items: center;
+}
+.logo .main-logo{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.nav-icon-description{
+    margin-left: 5px;
+    font-size: small;
+}
+
+/* palylist nav */
+
+.fa-square-plus{
+    font-size: 40px;
+}
+
+.new-playlist{
+    font-size: smaller;
+    color: #707070;
+    list-style-type: none;
+}
+
+.new-playlist > li{
+    margin: 10px 0;
+}
+
+/* acount nav */
+
+.line {
+    margin: 10px 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#user {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#user img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
 /* content */
 
 
