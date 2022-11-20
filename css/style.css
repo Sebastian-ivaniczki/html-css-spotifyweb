@@ -29,9 +29,7 @@
  }
 
 
- .border{
-    border: 1px dashed red;
- }
+
 
 
 /* btn */
@@ -49,6 +47,8 @@
 
 
 /* generics */
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +72,13 @@
     margin: 0.5rem 0;
 }
 
+.subtitle{
+    color: #707070;
+    font-size: small;
+    margin-top: 0.5rem;
+    display: block;
+}
+
 
  /* header */
  header{
@@ -91,6 +98,44 @@ main{
     display: flex;
 }
 
+.service-tipe-nav{
+    text-align: center;
+    list-style-type: none;
+
+    display: flex;
+}
+
+
+.service-list{
+
+    
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.service-list > li{
+    margin: 0 5px;
+
+}
+
+.service-list li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+/* famous artitst circle */
+
+.circle{
+    border-radius: 50%;
+}
+
+.circle > img{
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 
