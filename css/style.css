@@ -224,7 +224,7 @@ main{
 
 /* side-nav */
 .side-nav{
-    
+    overflow: hidden;
     padding: 0 10px;
     width: 250px;
     height: calc(100vh - 90px);
@@ -316,9 +316,9 @@ main{
 /* footer */
 footer{
     
-    width: 100%;
+    width: 100vw;
     height: 90px;
-    background-color: #2e2e2e;
+    background-color: rgb(46,46,46);
     display: flex;
     justify-content: space-between;
     align-items: center;
