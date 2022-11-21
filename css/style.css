@@ -13,6 +13,7 @@
 
  img{
     width: 100%;
+    display: block;
  }
 
  .main-container{
@@ -43,10 +44,18 @@
     margin-top: 20px;
     cursor: pointer;
     margin-right: 40px;
+    
+}
+
+.upgrade-btn:hover{
+    scale: 1.2;
 }
 
 
 /* generics */
+
+
+
 
 
 .row{
@@ -78,7 +87,32 @@
     margin-top: 0.5rem;
     display: block;
 }
+ /* pointer elements */
+i{
+    cursor: pointer;
+}
 
+li{
+    cursor: pointer;
+}
+
+h4{
+    cursor: pointer;
+}
+
+span{
+    cursor: pointer;
+}
+
+h6{
+    cursor: pointer;
+}
+/* text hover transformation */
+
+.h-color:hover {
+    opacity: 1;
+    color: white;
+}
 
  /* header */
  header{
@@ -114,6 +148,7 @@ main{
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .service-list > li{
@@ -122,9 +157,41 @@ main{
 }
 
 .service-list li a{
+    font-size: small;
     text-decoration: none;
     color: #707070;
 }
+
+/* albums cover hover */
+
+.cover{
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(19, 18, 18, 0.5);    
+}
+
+.overlay i {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.cover:hover .overlay{
+    opacity: 1;
+
+}
+
 
 /* famous artitst circle */
 
@@ -170,6 +237,11 @@ main{
     width: 50%;
     margin: 20px 0;
     display: none;
+}
+
+.home{
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 
@@ -234,6 +306,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 /* curent song */
 .curent-song{
@@ -294,6 +367,7 @@ figure{
     height: 4px;
     background-color: #5A5A5A;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .moving-bar{
@@ -302,10 +376,11 @@ figure{
     height: 100%;
     background-color: #C1C1C1;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.fa-circle{
-
+.indicator{
+    display: none;
     position: absolute;
     top: -6px;
     right: 0;
@@ -314,6 +389,21 @@ figure{
 .play-bar  span{
     font-size: 10px;
 }
+
+/* hover */
+
+.mediaplayer-interaction .fa-circle-play:hover{
+    scale: 1.1;
+}
+
+.moving-bar:hover {
+    background-color: #608E1A; 
+}
+
+.moving-bar:hover .indicator {
+    display: block;
+}
+
 
 /* mediaplayer imput */
 
