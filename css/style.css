@@ -161,10 +161,18 @@ main{
     display: flex;
     align-items: center;
 }
-.logo .main-logo{
+.main-logo{
     width: 50%;
     margin: 20px 0;
 }
+
+.small-logo{
+    width: 50%;
+    margin: 20px 0;
+    display: none;
+}
+
+
 
 .nav-icon-description{
     margin-left: 5px;
@@ -357,5 +365,25 @@ figure{
 
     .side-nav{
         width: 70px;
+    }
+
+    .main-logo{
+        display: none;
+
+    }
+
+    .small-logo{
+        display: block;
+    }
+
+    .nav-icon-description{
+        display: none;
+    }
+
+    .playlist-nav{
+        display: none;
+    } 
+    .disap{
+        display: none;
     }
 }
