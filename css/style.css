@@ -17,7 +17,7 @@
  }
 
  .main-container{
-     width: 100%;
+     width: calc(100% - 250px);
      height: calc(100vh - 90px);
      background-color: #141922;
      overflow: auto;
@@ -211,7 +211,7 @@ main{
 .side-nav{
     
     padding: 0 10px;
-    width: 300px;
+    width: 250px;
     height: calc(100vh - 90px);
     background-color: #000000;
     color: #707070;
@@ -452,6 +452,10 @@ figure{
 
 /********* extrasmall *************/
 @media screen and (max-width: 556px) {
+   /* main */
+    .main-container{
+        width: calc(100% - 50px);
+    }
     /* side-nav */
 
     .side-nav{
