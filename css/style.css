@@ -412,11 +412,11 @@ figure{
     scale: 1.1;
 }
 
-.moving-bar:hover {
+.bar:hover .moving-bar {
     background-color: #608E1A; 
 }
 
-.moving-bar:hover .indicator {
+.bar:hover .indicator {
     display: block;
 }
 
