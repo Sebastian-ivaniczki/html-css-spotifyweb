@@ -303,7 +303,29 @@ figure{
     right: 0;
     color: white;
 }
+.play-bar  span{
+    font-size: 10px;
+}
 
+/* mediaplayer imput */
+
+.mediaplayer-imp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+} 
+
+.volume{
+    width: 50%;
+}
+
+.interaction i{
+    margin-right: 5px;
+    color: #fff;
+    font-size: 12px;
+}
 
 
 
