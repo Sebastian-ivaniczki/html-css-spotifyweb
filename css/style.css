@@ -29,6 +29,14 @@
     padding-top: 10px;
  }
 
+.border-left{
+    
+    width: 2px;
+    border-left: 2px solid #608E1A;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
 
 
 
