@@ -76,7 +76,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 0 -10px;
     
 }
 
@@ -87,7 +87,7 @@
 
 .col{
     width: calc(100% / 6 - 10px);
-    margin-right: 10px;
+    padding: 10px;
 }
 
 
@@ -452,6 +452,10 @@ figure{
     .col{
         width: calc(100% / 4 - 10px);
         
+    }
+
+    .song-title > h4{
+        font-size: 13px;
     }
 }
 
